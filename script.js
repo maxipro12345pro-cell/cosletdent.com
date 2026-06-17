@@ -247,6 +247,7 @@ const textNodes = document.querySelectorAll("[data-i18n]");
 const langButtons = document.querySelectorAll("[data-lang]");
 const mobileMenu = document.querySelector("[data-mobile-menu]");
 const menuToggle = document.querySelector("[data-menu-toggle]");
+const brandLinks = document.querySelectorAll('.brand[href="#top"]');
 
 function setHtml(target, value) {
   target.innerHTML = value;
@@ -363,6 +364,17 @@ mobileMenu.querySelectorAll("a").forEach((link) => {
     mobileMenu.classList.remove("is-open");
     document.body.classList.remove("menu-open");
     menuToggle.setAttribute("aria-expanded", "false");
+  });
+});
+
+brandLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    mobileMenu.classList.remove("is-open");
+    document.body.classList.remove("menu-open");
+    menuToggle.setAttribute("aria-expanded", "false");
+    history.replaceState(null, "", window.location.pathname + window.location.search);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   });
 });
 
