@@ -50,7 +50,7 @@ const translations = {
     ],
     doctorEyebrow: "Despre medic",
     doctorTitle: "Despre medic",
-    doctorName: "Medicul ",
+    doctorName: "Medicul Eugen",
     clinicRole: 'Coșleț Dent',
     doctorText: "Medicul  oferă tratamente stomatologice cu atenție la detalii, grijă față de pacient și explicații clare la fiecare etapă a tratamentului.",
     doctorText2: 'La Coșleț Dent, pacienții beneficiază de o abordare calmă, profesionistă și orientată spre soluții potrivite pentru fiecare caz.',
