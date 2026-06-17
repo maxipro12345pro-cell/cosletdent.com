@@ -50,9 +50,9 @@ const translations = {
     ],
     doctorEyebrow: "Despre medic",
     doctorTitle: "Despre medic",
-    doctorName: "Medicul Evghenii",
+    doctorName: "Medicul ",
     clinicRole: 'Coșleț Dent',
-    doctorText: "Medicul Evghenii oferă tratamente stomatologice cu atenție la detalii, grijă față de pacient și explicații clare la fiecare etapă a tratamentului.",
+    doctorText: "Medicul  oferă tratamente stomatologice cu atenție la detalii, grijă față de pacient și explicații clare la fiecare etapă a tratamentului.",
     doctorText2: 'La Coșleț Dent, pacienții beneficiază de o abordare calmă, profesionistă și orientată spre soluții potrivite pentru fiecare caz.',
     doctorCta: "Programează o consultație",
     bookingEyebrow: "Programare",
@@ -84,7 +84,7 @@ const translations = {
     hoursFull: "Luni–Vineri: 09:00–19:00<br>Duminică: Închis",
     mapsCta: "Deschide în Google Maps",
     finalTitle: "Ai nevoie de o consultație stomatologică?",
-    finalText: 'Sună la Coșleț Dent și programează o vizită la medicul Evghenii.',
+    finalText: 'Sună la Coșleț Dent și programează o vizită la medicul .',
     footerNote: "Tratament dentar cu abordare atentă în Chișinău."
   },
   ru: {
@@ -200,9 +200,9 @@ const translations = {
     ],
     doctorEyebrow: "About the doctor",
     doctorTitle: "About the doctor",
-    doctorName: "Doctor Evghenii",
+    doctorName: "Doctor Eugen",
     clinicRole: 'Coșleț Dent',
-    doctorText: "Doctor Evghenii provides dental treatment with attention to detail, patient care and clear explanations at each stage.",
+    doctorText: "Doctor Eugen provides dental treatment with attention to detail, patient care and clear explanations at each stage.",
     doctorText2: 'At Coșleț Dent, patients receive a calm, professional approach focused on suitable solutions for each case.',
     doctorCta: "Book a consultation",
     bookingEyebrow: "Booking",
@@ -234,7 +234,7 @@ const translations = {
     hoursFull: "Monday–Friday: 09:00–19:00<br>Sunday: Closed",
     mapsCta: "Open in Google Maps",
     finalTitle: "Need a dental consultation?",
-    finalText: 'Call Coșleț Dent and book a visit with doctor Evghenii.',
+    finalText: 'Call Coșleț Dent and book a visit with doctor Eugen.',
     footerNote: "Attentive dental care in Chișinău."
   }
 };
